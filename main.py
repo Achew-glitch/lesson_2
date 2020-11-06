@@ -24,3 +24,12 @@ print(mode)
 my_list = [10, 20, 20, 20, 30, 40, 50, 60, 30]
 print(set(my_list))
 print(max(set(my_list), key = my_list.count))
+
+my_list.clear()
+my_list2 = []
+for i in range(5):
+    my_list.append(i)
+    my_list2.append(i+1)
+    my_dict = {'1': my_list, '2': my_list2 }
+
+print(my_dict)
